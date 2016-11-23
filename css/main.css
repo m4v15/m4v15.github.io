@@ -2,42 +2,13 @@ html, body {
     font-family: sans-serif;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> refs/remotes/origin/master
-div.container {
-    width: 100%;
-    border: 1px solid gray;
-}
 
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-}
-
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
-
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
+.w3-display-container{
+    position:relative;
+    display:inline-block;}
+.w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
+.w3-display-topright{position:absolute;right:0;top:0}
+.w3-display-middle{position:absolute;top:50%;left:50%}
+.w3-display-bottomleft{position:absolute;left:0;bottom:0}
+.w3-padding-large{padding:12px 24px!important}.w3-padding-xlarge{padding:16px 32px!important}
