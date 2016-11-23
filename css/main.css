@@ -1,15 +1,43 @@
-html, body {
-    font-family: sans-serif;
+body,h1 {
+    font-family: "Quicksand", sans-serif;
+}
+body, html {
+    height: 100%;
+}
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
 }
 
+.bgimg {
+    background-image: url('https://apod.nasa.gov/apod/image/1510/MoonEnteringShadow_Tzalavras.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
 
-
-.w3-display-container{
+.display-container{
     position:relative;
-    display:inline-block;}
-.w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
-.w3-display-topright{position:absolute;right:0;top:0}
-.w3-display-middle{position:absolute;top:50%;left:50%}
-.w3-display-bottomleft{position:absolute;left:0;bottom:0}
-.w3-padding-large{padding:12px 24px!important}.w3-padding-xlarge{padding:16px 32px!important}
+ }
+.text-white {color:#fff!important}
+.display-topright{position:absolute;right:0;top:0}
+.display-middle{position:absolute;top:25%;left:50%}
+.display-bottomleft{position:absolute;left:0;bottom:0}
+.padding-large{padding:12px 24px!important}.padding-xlarge{padding:16px 32px!important}
+.info{
+    border: 5px solid black;
+    border-radius: 10px;
+    padding:15px;
+    color: black;
+}
+.transparent{
+  background:rgba(255,255,255,0.5);
+}
+
+.small-text{
+    font-size: 0.5em;
+}
+
 
