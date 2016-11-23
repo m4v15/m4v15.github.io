@@ -1,14 +1,17 @@
 body,h1 {
     font-family: "Quicksand", sans-serif;
 }
-body, html {
+html {
     height: 100%;
+
 }
 body {
  margin-top: 0px;
  margin-right: 0px;
  margin-bottom: 0px;
- margin-left: 0px
+ margin-left: 0px;
+ height:100%;
+
 }
 
 .bgimg {
@@ -16,6 +19,7 @@ body {
     min-height: 100%;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .display-container{
@@ -23,7 +27,7 @@ body {
  }
 .text-white {color:#fff!important}
 .display-topright{position:absolute;right:0;top:0}
-.display-middle{position:absolute;top:25%;left:50%}
+.display-middle{position:absolute;top:15%;left:25%;right:5%;}
 .display-bottomleft{position:absolute;left:0;bottom:0}
 .padding-large{padding:12px 24px!important}.padding-xlarge{padding:16px 32px!important}
 .info{
@@ -31,6 +35,13 @@ body {
     border-radius: 10px;
     padding:15px;
     color: black;
+    font-weight: bold;
+    overflow: scroll;
+    max-height: 70%;
+}
+
+.info h2{
+    text-align: center;
 }
 .transparent{
   background:rgba(255,255,255,0.5);
